@@ -2,11 +2,15 @@
 <html>
 
 <head>
-  <title>Aki Hanari's Blog</title>
+  <title>Hanari's Workshop</title>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-  <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide|Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru|M+PLUS+1p:400,500&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet"
+      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/default.min.css"> -->
 </head>
 
 <body>
@@ -18,7 +22,7 @@
     {% else %}
         <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span></a>
     {% endif %}
-    <h1><a href="/">Aki Hanari's Blog</a></h1>
+    <h1><a href="/">Hanari's Workshop</a></h1>
 </div>
     <div class="content container">
         <div class="row">
@@ -28,6 +32,8 @@
             </div>
         </div>
     </div>
+    <!-- <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> -->
 </body>
 
 </html>

@@ -13,8 +13,8 @@
   <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
   <a class="btn btn-default" href="{% url 'post_remove' pk=post.pk %}"><span class="glyphicon glyphicon-remove"></span></a>
   {% endif %}
-  <h2>{{ post.title }}</h2>
-  <p>{{ post.text|linebreaksbr }}</p>
+  <h2 class="textpurple">{{ post.title }}</h2>
+  <p>{{ post.text|safe|linebreaksbr }}</p>
 </div>
 <hr>
 <a class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
@@ -28,7 +28,7 @@
                 <a class="btn btn-default" href="{% url 'comment_approve' pk=comment.pk %}"><span class="glyphicon glyphicon-ok"></span></a>
             {% endif %}
         </div>
-        <strong>{{ comment.author }}</strong>
+        <strong class="textpurple">{{ comment.author }}</strong>
         <p>{{ comment.text|linebreaks }}</p>
     </div>
     {% endif %}
