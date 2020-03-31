@@ -1,7 +1,7 @@
 h1 a, h2 a {
   color: #f199c0;
   /* font-family: 'Lobster'; */
-  font-family: 'Audiowide','Kosugi Maru', cursive;
+  font-family: 'Audiowide', 'Kosugi Maru', cursive;
   /* font-family: 'Kosugi Maru', sans-serif; */
 }
 
@@ -52,7 +52,7 @@ h1, h2, h3, h4 {
   font-size: 16pt;
   margin-right: 20px;
   /* font-family: 'Audiowide', cursive; */
-  font-family: 'Audiowide','Kosugi Maru', cursive;
+  font-family: 'Audiowide', 'Kosugi Maru', cursive;
 }
 
 .post {
@@ -60,7 +60,7 @@ h1, h2, h3, h4 {
 }
 
 .post h2 a, .post h2 a:visited, .textpurple {
-  font-family: 'Audiowide','Kosugi Maru', cursive;
+  font-family: 'Audiowide', 'Kosugi Maru', cursive;
   color: #879bed;
 }
 
